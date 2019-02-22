@@ -12,7 +12,7 @@ public class PostgreSQLJDBC {
         try {
             Class.forName("org.postgresql.Driver");
             c = DriverManager
-                    .getConnection("jdbc:postgresql://localhost:1234/new_database",
+                    .getConnection("jdbc:postgresql://104.248.88.37:5432/gogreenserver",
                             "postgres", "admin");
 
             stmt = c.createStatement();
