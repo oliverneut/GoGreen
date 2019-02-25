@@ -1,12 +1,18 @@
 package client;
 
+import com.fasterxml.jackson.annotation.JsonIgnoreProperties;
+
 import java.util.Objects;
 
+@JsonIgnoreProperties
 public class Login {
     String name;
 
 
-    public Login(String name){
+    public Login(){
+    }
+
+    public void setName(String name){
         this.name = name;
     }
 
