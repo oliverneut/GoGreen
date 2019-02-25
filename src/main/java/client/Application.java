@@ -1,5 +1,7 @@
 package client;
 
+import org.springframework.util.LinkedMultiValueMap;
+import org.springframework.util.MultiValueMap;
 import org.springframework.web.client.RestTemplate;
 
 /**
@@ -12,8 +14,12 @@ public class Application {
      */
 
     public static void main(String[] args) {
+        String url = "http://localhost:8080/login";
         RestTemplate restTemplate = new RestTemplate();
-        Login login = restTemplate.getForObject("http://localhost:8080/login?email=alice@gmail.com&password=alicepwd", Login.class);
-        System.out.println("Welcome" + login.toString());
+        MultiValueMap<String, String> parametersMap = new LinkedMultiValueMap<String, String>();
+        parametersMap.add("email", "alice@gmail.com");
+        parametersMap.add("password", "alicepwd");
+        Login login = restTemplate.postForObject(url, parametersMap, Login.class);
+        System.out.println("Welcome " + login.toString());
     }
 }
