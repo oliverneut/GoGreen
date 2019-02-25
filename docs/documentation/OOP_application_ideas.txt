@@ -11,3 +11,4 @@ OOP application idea's:
  - the application is not a web application, but a desktop application (connected to the internet)
  - secure implementation, https-usage, password system
  - three graphs per person that will constitute the final score
+ - demographic data (age for example) and grouping data based on this demographic data (do 5 year olds have smaller CO2 footprints than 20 year olds?)
