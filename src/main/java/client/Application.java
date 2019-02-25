@@ -30,7 +30,7 @@ public class Application {
             URL url = new URL("http://localhost:8080/request");
             HttpURLConnection con = (HttpURLConnection) url.openConnection();
 
-            con.setRequestMethod("GET");
+            con.setRequestMethod("POST");
             con.setDoOutput(true);
 
             OutputStream os = con.getOutputStream();
