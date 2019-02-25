@@ -21,6 +21,7 @@ Discuss : \
 - any ideas on how we could do things better/ more efficient? something else we want to discuss\
     > why did we build something without spring? then redid it with spring?\
     > why did testing end up as a last minute issue?
+    > should we move our project to the template project? CI might not work in our current project
 - creation of the product backlog\
 - take notes every meeting, not just monday (at least: action points, evaluation points)\
 - maven code review\
