@@ -12,11 +12,11 @@ public class Login {
     public Login(){
     }
 
-    public void setName(String name){
+    public void setName(String name) {
         this.name = name;
     }
 
-    public String getName(){
+    public String getName() {
         return name;
     }
 
@@ -26,14 +26,14 @@ public class Login {
     }
 
     @Override
-    public boolean equals(Object o) {
-        if (this == o) {
+    public boolean equals(Object other) {
+        if (this == other) {
             return true;
         }
-        if (o == null || getClass() != o.getClass()) {
+        if (other == null || getClass() != other.getClass()) {
             return false;
         }
-        Login login = (Login) o;
+        Login login = (Login) other;
         return Objects.equals(name, login.name);
     }
 }

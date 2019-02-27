@@ -3,10 +3,8 @@ package server;
 import org.springframework.web.bind.annotation.RequestMapping;
 import org.springframework.web.bind.annotation.RequestParam;
 import org.springframework.web.bind.annotation.RestController;
-import java.sql.Connection;
-import java.sql.DriverManager;
-import java.sql.PreparedStatement;
-import java.sql.ResultSet;
+
+import java.sql.*;
 import java.util.HashMap;
 
 
@@ -20,18 +18,20 @@ public class WebApi {
     }
 
     @RequestMapping("/login")
-    public HashMap<String, String> login(@RequestParam(value = "email", defaultValue = "kek@gmail.com") String email, @RequestParam(value = "password", defaultValue = "abcd") String password) {
+    public HashMap<String, String> login(
+            @RequestParam(value = "email", defaultValue = "kek@gmail.com") String email,
+            @RequestParam(value = "password", defaultValue = "abcd") String password) {
         System.out.println("Received a request");
         Connection connection = null;
         PreparedStatement stmt = null;
         String name = null;
+        String query = "select userid, name from users where email = ? AND password = ?;";
         try {
-            Class.forName("org.postgresql.Driver");
             connection = DriverManager
                 .getConnection("jdbc:postgresql://104.248.88.37:5432/gogreenserver",
                     "postgres", "admin");
 
-            stmt = connection.prepareStatement("select userid, name from users where email = ? AND password = ?;");
+            stmt = connection.prepareStatement(query);
             stmt.setString(1, email);
             stmt.setString(2, password);
             ResultSet rs = stmt.executeQuery();
@@ -44,7 +44,7 @@ public class WebApi {
             rs.close();
             stmt.close();
             connection.close();
-        } catch (Exception e) {
+        } catch (SQLException e) {
             e.printStackTrace();
             System.err.println(e.getClass().getName() + ": " + e.getMessage());
             System.exit(0);
