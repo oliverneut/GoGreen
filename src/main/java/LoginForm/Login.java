@@ -17,7 +17,7 @@ import javax.swing.JPanel;
 import javax.swing.JPasswordField;
 import javax.swing.JTextField;
 
-public class ScrapNotes {
+public class Login {
 			
 			public static void main(String[] args) {
 				
