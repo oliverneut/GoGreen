@@ -1,31 +1,4 @@
-package LoginForm;
-
-import java.awt.Color;
-import java.awt.Container;
-import java.awt.Dimension;
-import java.awt.FlowLayout;
-import java.awt.Font;
-import java.awt.event.ActionEvent;
-import java.awt.event.ActionListener;
-import javax.swing.JOptionPane;
-import javax.swing.JButton;
-import javax.swing.JCheckBox;
-import javax.swing.JComboBox;
-import javax.swing.JFrame;
-import javax.swing.JLabel;
-import javax.swing.JPanel;
-import javax.swing.JPasswordField;
-import javax.swing.JTextField;
-
-public class ScrapNotes {
-			
-			public static void main(String[] args) {
-				
-				
-/////////////////////////////////////////// FRAME 1 /////////////////////////////////////////////////				
-				
-				
-				 JFrame newAccount = new JFrame("Create new account");
+JFrame newAccount = new JFrame("Create new account");
 			        newAccount.setSize(450,450);
 			        Container a = newAccount.getContentPane();
 			        a.setBackground(Color.green);
@@ -256,10 +229,7 @@ public class ScrapNotes {
 					
 				}});
 	
-				newAccount2.add(panel2); //Add the features in the panel into the frame
-				
-
-				
+				newAccount2.add(panel2); //Add the features in the panel into the frame			
 			  
 		    	//newAccount.setDefaultCloseOperation(JFrame.HIDE_ON_CLOSE);
 		    }
@@ -277,7 +247,8 @@ public class ScrapNotes {
 					
 					JFrame Frame2 = new JFrame("GO-GREEN");	
 					Frame2.setSize(600,600);
-					Frame2.setLayout(new FlowLayout());
+					//Frame2.setLayout(new FlowLayout());
+					Frame2.setLayout(null);
 					Frame2.setLocationRelativeTo(null);
 					Frame2.setDefaultCloseOperation(JFrame.EXIT_ON_CLOSE);
 					Frame2.setResizable(false);
@@ -285,59 +256,98 @@ public class ScrapNotes {
 					
 					Container b = Frame2.getContentPane();
 			        b.setBackground(Color.green);
+						  
+					JLabel label3 = new JLabel("Please select your food-option:");
+					label3.setBounds(200, 50, 250, 25);
 					
-					JLabel label3 = new JLabel("Kilometers travelled:");
-					JTextField textfield2 = new JTextField();
-					textfield2.setPreferredSize(new Dimension(200,25));
+					String Food[]={"SELECT:", "Vegetarian-food", "Non-Vegetarian food"}; 
+				    JComboBox SustainableFood = new JComboBox(Food);
+				    SustainableFood.setBounds(150,100,300,20);
+			        Frame2.add(SustainableFood);
+			        
+			    	JCheckBox checkbox1 = new JCheckBox();
+					checkbox1.setText("I choose the food-option");
+					checkbox1.setBounds(200,125,170,30);
+					checkbox1.setVisible(true);
+					checkbox1.setSelected(true);
+
+					JLabel label4 = new JLabel("Please select your transportation-option:");
+					label4.setBounds(200, 150, 250, 25);
+			        
+					String Transport[]={"SELECT:", "Sustainable Transport", "Non-sustainable transport"}; 
+				    JComboBox SustainableTransport = new JComboBox(Transport);
+				    SustainableTransport.setBounds(150,200,300,20);
+			        Frame2.add(SustainableTransport);
+
+			        JCheckBox checkbox2 = new JCheckBox();
+					checkbox2.setText("I choose the Transport-option");
+					checkbox2.setBounds(200,225,170,30);
+					checkbox2.setVisible(true);
+					checkbox2.setSelected(true);
+			        
+					JLabel label5 = new JLabel("Please select your energy-option:");
+					label5.setBounds(200, 250, 250, 25);
 					
-					//textfield2.setHorizontalAlignment(javax.swing.JTextField.LEFT);
-					
-					textfield2.setLocation(0,40);
-					textfield2.setVisible(true);
-					textfield2.setEnabled(true);
-						
-				    //Combobox and dropdown menubar
-					String Planet[]={"", "Transport", "Food", "Energy"}; 
-					//String Food1[]= {"Vegetarian meals" , "Non-Vegetarian meals"};
-				    JComboBox Environment = new JComboBox(Planet);
-				    Environment.setLocation(0, 20);
-				    Environment.setBounds(60,60,90,20); 
-			        Frame2.add(Environment); 
+					String Energy[]={"SELECT:", "Sustainable Energy", "Non-sustainable Energy"}; 
+				    JComboBox SustainableEnergy = new JComboBox(Energy);
+				    SustainableEnergy.setBounds(150,300,300,20);
+			        Frame2.add(SustainableEnergy);
+			        
+			        JCheckBox checkbox3 = new JCheckBox();
+					checkbox3.setText("I choose the energy-option");
+					checkbox3.setBounds(200,350,170,30);
+					checkbox3.setVisible(true);
+					checkbox3.setSelected(true);
 
 			      //Tick Box- Check box
 					JCheckBox checkbox = new JCheckBox();
 					checkbox.setText("Do you wish to proceed?");
-					checkbox.setLocation(0, 15);
+					checkbox.setBounds(200,400,170,30);
 					checkbox.setVisible(true);
-					checkbox.setSelected(true);
-			           
+					checkbox.setSelected(true);		
+
 			        //Button
 					JButton button2 = new JButton("SUBMIT");
 					button2.setSize(100,100);
-					button2.setLocation(0, 10);
+					button2.setBounds(210,500,160,50);
 					button2.setEnabled(true);
 					button2.setVisible(true);
-					//button2.setHorizontalAlignment(JButton.SOUTH);
 												
 					JPanel panel2 = new JPanel();
 					panel2.setLayout(new FlowLayout());
-					panel2.add(label3);					
-					panel2.add(textfield2);
+					panel2.add(label3);	
+					panel2.add(label4);	
+					panel2.add(label5);	
 					panel2.add(checkbox);
-					panel2.add(Environment);
-					panel2.add(button2);
-							
+					panel2.add(checkbox1);
+					panel2.add(checkbox2);
+					panel2.add(checkbox3);
+					panel2.add(SustainableFood);
+					panel2.add(SustainableTransport);
+					panel2.add(SustainableEnergy);
+					panel2.add(button2);							
 					Frame2.add(label3);
-					Frame2.add(textfield2);
-					  Frame2.add(Environment);
+					Frame2.add(label4);
+					Frame2.add(label5);
+					  Frame2.add(SustainableFood);
+					  Frame2.add(SustainableTransport);
+					  Frame2.add(SustainableEnergy);
 					  Frame2.add(checkbox);
+					  Frame2.add(checkbox1);
+					  Frame2.add(checkbox2);
+					  Frame2.add(checkbox3);
 				        Frame2.add(button2);
 				        Frame2.setVisible(true);
 				        Frame2.setResizable(true);
 				        Frame2.setLayout(null);
 				    	Frame2.setLocationRelativeTo(null);
 						Frame2.setDefaultCloseOperation(JFrame.EXIT_ON_CLOSE);
-						Frame2.setBackground(Color.green);		
+						Frame2.setBackground(Color.green);	
+						
+//						if () {
+//							
+//						}
+	
 
 					button2.addActionListener(new Action2());
 				   // Frame2.add(panel2);        	
@@ -368,3 +378,6 @@ public class ScrapNotes {
 	
 				}
 				}
+			
+
+
