@@ -1,4 +1,31 @@
-JFrame newAccount = new JFrame("Create new account");
+package LoginForm;
+
+import java.awt.Color;
+import java.awt.Container;
+import java.awt.Dimension;
+import java.awt.FlowLayout;
+import java.awt.Font;
+import java.awt.event.ActionEvent;
+import java.awt.event.ActionListener;
+import javax.swing.JOptionPane;
+import javax.swing.JButton;
+import javax.swing.JCheckBox;
+import javax.swing.JComboBox;
+import javax.swing.JFrame;
+import javax.swing.JLabel;
+import javax.swing.JPanel;
+import javax.swing.JPasswordField;
+import javax.swing.JTextField;
+
+public class Login {
+			
+			public static void main(String[] args) {
+				
+				
+/////////////////////////////////////////// FRAME 1 /////////////////////////////////////////////////				
+				
+				
+				    JFrame newAccount = new JFrame("Create new account");
 			        newAccount.setSize(450,450);
 			        Container a = newAccount.getContentPane();
 			        a.setBackground(Color.green);
@@ -379,5 +406,3 @@ JFrame newAccount = new JFrame("Create new account");
 				}
 				}
 			
-
-
