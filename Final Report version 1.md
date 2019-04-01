@@ -91,13 +91,15 @@ Explain (if possible):
 - How you may try to loosen this tension by some new design solution (also hypothetical, non-existing)
 
 
-
-
 1. Identify an unusual stakeholder and an unusual value in your project
-    An unusual stakeholder in our project would be the generation born at the end of the 21 century. Their world might be very different due to climate change.
-    An unusual value in our project might be
+    An unusual stakeholder would be meat production companies looking for vegetarian alternatives. In the event of a great overwhelming success of our app, making everyone eat more vegetarian meals all over the world (for one thing), a vegetarian diet would become much more mainstream. Vegetarian meat alternatives become more economically viable as a vegetarian diet becomes more mainstream.
+    An unusual value in our project might be well-being with regard to diet. With regard to the environment we would ideally all follow a vegetarian diet. However, even if we would all eat a vegetarian diet, the retention of meat-like foods in our diet might be a good thing, as this is a type of food a lot of people greatly enjoy worldwide. With our app we encourage people to eat vegetarian meals, but we should also encourage them to follow a varied diet and to enjoy what they eat.
 2. How would our design be different if we were to really take above stakeholder and value into consideration?
-    For the stakeholder: figure out how our app could really change behaviour and reduce climate change to a minimum. In addition: we could make an achievement system that measures the difference you made to a person to be born at the end of the 21 century.
+    Our main concept is that we design an app for people wishing to improve their environmental impact.
+    In general terms the design stakeholders would be the students working on the app, the TA's and teachers determining the grade and the end users that might use the app.
+    The values in general terms would be sustainability (lessen environmental impact), environmental-friendliness (eat less meat, drive the car less) and privacy (keep the user's data safe).
+    For the non-obvious stakeholder (a meat production company looking into vegetarian alternatives) we would try and gather data on how many people are actually changing their diet and are eating more vegetarian meals than before. We would recruit meat production companies for a newsletter and send them info on milestones reached. The students building the app might have the benefit of financial gain, as will the companies getting data on how to invest in future products. The user might not want to share his data. There will be tension between selling data and giving the user his/her privacy.
+
 
 3. What knowledge would we really need to do point 2? (What people would we interview, what research would need to be done and in which fields of science?)
     We would need to know what difference we could make for the end of the 21 century. We'd need information on how fast the climate is changing, what the real effects of this will be in about 80 years and how our app will reduce these effects. We'd need information also on how usage of an app can influence behaviour and how to make use of this. Ideally a renowned social scientist/psychologist would do research on apps like pokémon go and how it influences behaviour and share his/her results with us.
