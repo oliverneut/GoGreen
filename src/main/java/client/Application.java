@@ -25,6 +25,7 @@ import java.net.URISyntaxException;
 import java.sql.Timestamp;
 import java.text.SimpleDateFormat;
 import java.util.Date;
+import java.util.LinkedList;
 import java.util.Locale;
 
 /**
@@ -262,6 +263,81 @@ public class Application {
                 req, FriendListResponse.class);
         return response;
     }
+
+    /**
+     * calculates the amount of CO2 one saves in terms of food consumption.
+     * @return a float with the amount of CO2 he/she has saved
+     */
+    public static float calculateFood(){
+        ActivityListResponse activities =  Application.getActivities();
+        LinkedList<Activity> getFood = activities.getActivities();
+        int i = 0;
+        float sumFood = 0;
+        while(i < getFood.size()) {
+            if(getFood.get(i).getActivity().equals(Activity.ActivityObject.VEGMEAL) ||
+                    getFood.get(i).getActivity().equals(Activity.ActivityObject.LOCALFOOD)) {
+                sumFood += getFood.get(i).getCo2Amount();
+            }
+            i++;
+        }
+        return sumFood;
+    }
+    /**
+     * calculates the amount of CO2 one saved in terms of transport.
+     * @return a float with the amount of CO2 he/she has saved
+     */
+    public static float calculatePubTransport(){
+        ActivityListResponse activities =  Application.getActivities();
+        LinkedList<Activity> getPubTransport = activities.getActivities();
+        int i = 0;
+        float sumPubTransport = 0;
+        while(i < getPubTransport.size()) {
+            if(getPubTransport.get(i).getActivity().equals(Activity.ActivityObject.BIKE) ||
+                    getPubTransport.get(i).getActivity().equals(Activity.ActivityObject.PUBTRANS)) {
+                sumPubTransport += getPubTransport.get(i).getCo2Amount();
+            }
+            i++;
+        }
+        return sumPubTransport;
+    }
+    /**
+     * calculates the amount of CO2 one saved in terms of energy.
+     * @return a float with the amount of CO2 he/she has saved
+     */
+    public static float calculateEnergy(){
+        ActivityListResponse activities =  Application.getActivities();
+        LinkedList<Activity> getEnergy = activities.getActivities();
+        int i = 0;
+        float sumEnergy = 0;
+        while(i < getEnergy.size()) {
+            if(getEnergy.get(i).getActivity().equals(Activity.ActivityObject.SOLARPANELS) ||
+                    getEnergy.get(i).getActivity().equals(Activity.ActivityObject.HOMETEMP)) {
+                sumEnergy += getEnergy.get(i).getCo2Amount();
+            }
+            i++;
+        }
+        return sumEnergy;
+    }
+
+    /**
+     * calculates the amount of trees saved by adding CO2 of every activity
+     * and dividing it by the amount of CO2 a tree uses in 100 years which is 2177 kg of CO2.
+     * @return the amount of trees that were saved
+     */
+    public static int calculateSavedTrees(){
+        ActivityListResponse activities =  Application.getActivities();
+        LinkedList<Activity> getActivities = activities.getActivities();
+        int i = 0;
+        int CO2 = 0;
+        while(i < getActivities.size()){
+            CO2 += getActivities.get(i).getCo2Amount();
+            i++;
+        }
+        float res = CO2/2177; // 2177 is the amount of CO2 a tree consumes in 100 years
+        int result = (int)res;
+        return result;
+    }
+
 
 
 }
