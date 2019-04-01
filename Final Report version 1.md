@@ -23,6 +23,8 @@ student number - name
 4. How did version control help (if at all)?
     We were able to make branches per week and add features accordingly. This was a great help with regard to keeping documentation and keeping things organized.
 5. What did we learn?
+    We all learned how to work properly in group and what it is like working on software in team.
+    Most of us learned how to work with git because we weren't used to it yet. And all of us got to know a few helpful frameworks like Spring, maven, mockito.
 6. […] (← other points to add?)
 
 ---
@@ -33,13 +35,22 @@ student number - name
     Regarding the GUI: we decided on NetBeans as this seemed to be a smart way to build the GUI. Later we switched to SceneBuilder, as this was more suited for displaying graphs. (Had we known in advance graphs we're to be a feature we would've decided on SceneBuilder from the start.)
     We chose to not have an abstract base class [ ... because -> insert reasons ... ].
     For the databases we chose SQL over JSON since queries are more simple in SQL.
-3. […] (← other points to add?)
+3. What system did we use to calculate the CO2 savings?
+    We looked up good and correct values for each mandatory activity we needed to implement, and we decided to store them into our database. This was much better because we didn't think the coolclimate API (which we had in mind at first) was a good solution for our application.   
+[…] (← other points to add?)
 
 ---
 ## Points for improvement
 1. How can your software be improved (testing, GUI, code quality, features, ...)
+    We can add more bonus features which would give us a higher grade like :
+        - make it into an android application. 
+        - add a visual representation of a forest where the user can see how much trees he saved
+        - add a API which can calculate CO2 for the car you drive (BMW X5, Volvo C3, ...)
 2. How can the process/collaboration be improved?
+    We could split up the workload even more, so that everyone has done an equal share into the making of the application. Or maybe we could have changed everyone's task on a weekly basis, this way everyone would have worked on every aspect of the application.
 3. How can the course be improved?
+    Give the students an intro on maven, mockito ... Some things we're hard to process on your own.
+    We know that the course is about looking things up and learning things on the go without much help, but sometimes an introduction on complex subjects would be really helpful.
 4. […] (← other points to add?)
 
 ---
@@ -55,6 +66,7 @@ My weaker points were that I might've been more proactive at times during the sp
 ### Michael Chan
 ### Nima Khaksar
 ### Oliver Neut
+In the beginning of the project I was very interested in making an application in team, it seemed very hard to begin. But after the first week of coding we got the first demo done, this wansn't really a struggle. After that thinks got more complicated, we started using frameworks like Spring and mockito. I couldn't figure out how to work with it and just helped where I could, I did the checkstyle for a bit of classes. In week 6 I started with defining a scoring system that we could implement into the database of our application. The week after I looked into encrypting the passwords of the user, this worked out really good. Week 8 I implemented an achievement tab into our application, where the user can see how good he is performing. I learned quite a few things during this project and these will definitely be good in the future.
 ### Rauf Akdemir
 ### Tamer Sahin
 
