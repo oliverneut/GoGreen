@@ -72,12 +72,33 @@ In the beginning of the project I was very interested in making an application i
 
 ---
 ## Value Sensitive Design
-(500-750 words) 
+    
+Write about one page (500-750 words) in which you describe:
+In what way the design process and the final product would change if you have to really design also for this other stakeholders or values
+      
+Your text should cover the following points:
+    
+1. How would you define your main concept: “design for...”
+
+2. How would you define in general terms the stakeholders/values you want to design for
+    
+
+3. Which sources would you consult in order to gain theoretical insights into the stakeholders or values you want to design for: academic literature, artworks, experts in domain different than yours...; give some general indication not necessarily titles of books or names of experts: e.g. “social scientists who have study the phenomenon X, documentaries on discrimination of the group Y, legal/philosophical literature on the right to Z, political studies on the meaning of democracy etc.)
+
+4. Your concept involves the realization of at least two values OR one or more values for at least two different stakeholders (see above).
+Explain (if possible): 
+- how the interests of the different chosen stakeholders AND/OR the different values may be in tensiono
+- How you may try to loosen this tension by some new design solution (also hypothetical, non-existing)
+
+
+
+
 1. Identify an unusual stakeholder and an unusual value in your project
     An unusual stakeholder in our project would be the generation born at the end of the 21 century. Their world might be very different due to climate change.
     An unusual value in our project might be
 2. How would our design be different if we were to really take above stakeholder and value into consideration?
     For the stakeholder: figure out how our app could really change behaviour and reduce climate change to a minimum. In addition: we could make an achievement system that measures the difference you made to a person to be born at the end of the 21 century.
+
 3. What knowledge would we really need to do point 2? (What people would we interview, what research would need to be done and in which fields of science?)
     We would need to know what difference we could make for the end of the 21 century. We'd need information on how fast the climate is changing, what the real effects of this will be in about 80 years and how our app will reduce these effects. We'd need information also on how usage of an app can influence behaviour and how to make use of this. Ideally a renowned social scientist/psychologist would do research on apps like pokémon go and how it influences behaviour and share his/her results with us.
 4. Describe one OR the other: what tension exists between the values of this project? OR: What tension exists between the stakeholders of this project?
