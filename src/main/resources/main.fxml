@@ -4,6 +4,9 @@
 <?import com.jfoenix.controls.JFXTabPane?>
 <?import com.jfoenix.controls.JFXTextField?>
 <?import de.jensd.fx.glyphs.fontawesome.FontAwesomeIconView?>
+<?import javafx.scene.chart.CategoryAxis?>
+<?import javafx.scene.chart.LineChart?>
+<?import javafx.scene.chart.NumberAxis?>
 <?import javafx.scene.control.Button?>
 <?import javafx.scene.control.Label?>
 <?import javafx.scene.control.ProgressBar?>
@@ -100,6 +103,24 @@
                               <TableColumn fx:id="friendco2Column" prefWidth="236.0" text="CO2" />
                            </columns>
                         </TableView>
+                     </children>
+                  </AnchorPane>
+               </content>
+            </Tab>
+            <Tab text="Statistics">
+               <content>
+                  <AnchorPane minHeight="0.0" minWidth="0.0" prefHeight="180.0" prefWidth="200.0" stylesheets="@dark-theme.css">
+                     <children>
+                        <JFXListView fx:id="mylistview1" layoutX="105.0" layoutY="62.0" onMouseClicked="#clickedList" prefHeight="313.0" prefWidth="391.0" styleClass="mylistview" />
+                        <LineChart layoutX="122.0" layoutY="82.0" prefHeight="249.0" prefWidth="356.0">
+                           <xAxis>
+                              <CategoryAxis side="BOTTOM" />
+                           </xAxis>
+                           <yAxis>
+                              <NumberAxis side="LEFT" />
+                           </yAxis>
+                        </LineChart>
+                        <Label layoutX="219.0" layoutY="14.0" text="Your Chart" />
                      </children>
                   </AnchorPane>
                </content>
