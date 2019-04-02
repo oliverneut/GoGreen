@@ -79,16 +79,28 @@ In what way the design process and the final product would change if you have to
 Your text should cover the following points:
     
 1. How would you define your main concept: “design for...”
+    An unusual stakeholder would be meat production companies looking for vegetarian alternatives. In the event of a great overwhelming success of our app, making everyone eat more vegetarian meals all over the world (for one thing), a vegetarian diet would become much more mainstream. Vegetarian meat alternatives become more economically viable as a vegetarian diet becomes more mainstream.
+    An unusual value in our project might be well-being with regard to diet. With regard to the environment we would ideally all follow a vegetarian diet. However, even if we would all eat a vegetarian diet, the retention of meat-like foods in our diet might be a good thing, as this is a type of food a lot of people greatly enjoy worldwide. With our app we encourage people to eat vegetarian meals, but we should also encourage them to follow a varied diet and to enjoy what they eat.
 
 2. How would you define in general terms the stakeholders/values you want to design for
-    
+    Our main concept is that we design an app for people wishing to improve their environmental impact.
+    In general terms the design stakeholders would be the students working on the app, the TA's and teachers determining the grade and the end users that might use the app.
+    The values in general terms would be sustainability (lessen environmental impact), environmental-friendliness (eat less meat, drive the car less) and privacy (keep the user's data safe).
+    For the non-obvious stakeholder (a meat production company looking into vegetarian alternatives) we would try and gather data on how many people are actually changing their diet and are eating more vegetarian meals than before. We would recruit meat production companies for a newsletter and send them info on milestones reached. The students building the app might have the benefit of financial gain, as will the companies getting data on how to invest in future products. The user might not want to share his data. There will be tension between selling data and giving the user his/her privacy.
 
 3. Which sources would you consult in order to gain theoretical insights into the stakeholders or values you want to design for: academic literature, artworks, experts in domain different than yours...; give some general indication not necessarily titles of books or names of experts: e.g. “social scientists who have study the phenomenon X, documentaries on discrimination of the group Y, legal/philosophical literature on the right to Z, political studies on the meaning of democracy etc.)
+    For the environmental-friendliness we want to inform ourselves about what non-vegan foods exactly are the most harming to our planet. Finding alternatives to these kinds of products is best done by informing ourselves by food-experts.
+    We also would want to keep a varied diet for the consumer, we would have to delve deeper into what the importance of meat is and also how much a person actually needs it in his/her diet. We think studies about diet/health concerning vegan lifestyles should learn us that. A last thing that would be important is to popularize the concept of a vegan lifestyle as much as possible, experts on consumer behaviour would be best at teaching us the best ways to do so.
 
 4. Your concept involves the realization of at least two values OR one or more values for at least two different stakeholders (see above).
 Explain (if possible): 
-- how the interests of the different chosen stakeholders AND/OR the different values may be in tensiono
+- how the interests of the different chosen stakeholders AND/OR the different values may be in tension
+    There will be tension between selling data to food producing companies and giving the user his/her privacy that he/she needs.
+
 - How you may try to loosen this tension by some new design solution (also hypothetical, non-existing)
+    We would take the data we gather from the users into account and form general graphs about their behaviour. The private data e.g. Lisa has eaten only vegan meals last week wouldn't be the data we would actually want to give away. Only if the user agrees to do so. This way the users that agree shouldn't be angry and the users who don't still have their privacy. While at the same time the companies can benefit from the data we gather.
+    
+
 
 
 1. Identify an unusual stakeholder and an unusual value in your project
