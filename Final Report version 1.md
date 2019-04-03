@@ -69,6 +69,14 @@ My stronger points were that I had a pretty good understanding of the program in
 My weaker points were that I did not keep track the organisational activities well such as the SCRUMBoard. I also ended up doing most of my work in the weekend before the demo which was not very helpful for the rest of the team as it would seem if we were behind schedule.
 This was especially an issue for the week 8 deadline as we ended up with untested code and it was not clear who was going to write those tests. I ended up writing them the night before the demo. Better planning would have avoided that issue altogether and is something I will keep in mind for in the future.
 ### Nima Khaksar
+I was responsible for the client side, with other words to build and develop the GUI and its features. 
+There was another member who also had the same responsibility with the GUI, however since he didn't have previous experience with it, 
+I was his helping hand in the first beginning until he managed to pull it off and started to work with it alongside with me. 
+My stronger points with the project are that I have always done the necessary tasks before the deadline or on-time,
+with other words no previous left overs and I have also worked with a backup plan simultaneously as with the "current plan" 
+so if something goes wrong with the first plan, then I do have a backup to show/work with. 
+My weak points are that I didn’t understand very well of how Git and Sourcetree work, which led to several problems when I tried
+to commit my work/code.   
 ### Oliver Neut
 In the beginning of the project I was very interested in making an application in team, it seemed very hard to begin. But after the first week of coding we got the first demo done, this wansn't really a struggle. After that thinks got more complicated, we started using frameworks like Spring and mockito. I couldn't figure out how to work with it and just helped where I could, I did the checkstyle for a bit of classes. In week 6 I started with defining a scoring system that we could implement into the database of our application. The week after I looked into encrypting the passwords of the user, this worked out really good. Week 8 I implemented an achievement tab into our application, where the user can see how good he is performing. I learned quite a few things during this project and these will definitely be good in the future.
 ### Rauf Akdemir
