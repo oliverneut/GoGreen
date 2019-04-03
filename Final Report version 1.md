@@ -84,7 +84,7 @@ In the beginning of the project I was very interested in making an application i
 At the beginning of the project everything was a little bit vague for me. Then meeting after meeting, things became clearer. I think my strong points during the project were that I was very critical of the small points in the rubric and tried to make sure everyone did it that way.
 I also think that my communication with the group was also a plus, especially with the one with whom I made the GUI, Nima.
 My weakness was certainly the entire process with Sourcetree and working with git.
-It was the second OOPP lecture that we got an explanation about Github and I already knew that it would be difficult to master. Of course, for example, pushing code became no problem after pushing several times , but I must admit that I still have problems with things like Git and certain things from Sourcetree, but I got the motivation to try to master this after the OOPP course.
+It was the second OOPP lecture that we got an explanation about Github and I already knew that it would be difficult to master. Of course, for example, pushing code became no problem after pushing several times , but I must admit that I still have problems with Git and certain things from Sourcetree, but I got the motivation to try to master this after the OOPP course.
 The last one, which I can't actually call a weakness, but rather something that I regret is that during the project I only worked on one thing, the GUI. The good thing about this is that I started at 0, no  experience, but now I manage it.
 It would have been better if I had also done something with the server. That is why I am very happy with OOPP, because I am not going to make the mistakes I made this year during the final period next year!
 
