@@ -81,6 +81,14 @@ to commit my work/code.
 In the beginning of the project I was very interested in making an application in team, it seemed very hard to begin. But after the first week of coding we got the first demo done, this wansn't really a struggle. After that thinks got more complicated, we started using frameworks like Spring and mockito. I couldn't figure out how to work with it and just helped where I could, I did the checkstyle for a bit of classes. In week 6 I started with defining a scoring system that we could implement into the database of our application. The week after I looked into encrypting the passwords of the user, this worked out really good. Week 8 I implemented an achievement tab into our application, where the user can see how good he is performing. I learned quite a few things during this project and these will definitely be good in the future.
 ### Rauf Akdemir
 ### Tamer Sahin
+At the beginning of the project everything was a little bit vague for me. Then meeting after meeting, things became clearer. I think my strong points during the project were that I was very critical of the small points in the rubric and tried to make sure everyone did it that way.
+I also think that my communication with the group was also a plus, especially with the one with whom I made the GUI, Nima.
+My weakness was certainly the entire process with Sourcetree and working with git.
+It was the second OOPP lecture that we got an explanation about Github and I already knew that it would be difficult to master. Of course, for example, pushing code became no problem after pushing several times , but I must admit that I still have problems with things like Git and certain things from Sourcetree, but I got the motivation to try to master this after the OOPP course.
+The last one, which I can't actually call a weakness, but rather something that I regret is that during the project I only worked on one thing, the GUI. The good thing about this is that I started at 0, no  experience, but now I manage it.
+It would have been better if I had also done something with the server. That is why I am very happy with OOPP, because I am not going to make the mistakes I made this year during the final period next year!
+
+---
 
 ---
 ## Value Sensitive Design
