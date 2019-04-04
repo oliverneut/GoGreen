@@ -93,11 +93,11 @@ It would have been better if I had also done something with the server. That is 
 ---
 ## Value Sensitive Design
 ### Main concept, stakeholders and values
-    Our main concept is that we design an app for people wishing to improve their environmental impact.
+Our main concept is that we design an app for people wishing to improve their environmental impact.
     In general terms the design stakeholders would be the students working on the app, the TA's and teachers determining the grade and the end users that might use the app.
     The values in general terms would be sustainability (lessen environmental impact), environmental-friendliness (eat less meat, drive the car less) and privacy (keep the user's data safe).
 ### Non-obvious stakeholders/values
-    A non-obvious stakeholder would be meat production companies looking for vegetarian alternatives. In the event of a great overwhelming success of our app, making everyone eat more vegetarian meals all over the world (for one thing), a vegetarian diet would become much more mainstream. Vegetarian meat alternatives become more economically viable.
+A non-obvious stakeholder would be meat production companies looking for vegetarian alternatives. In the event of a great overwhelming success of our app, making everyone eat more vegetarian meals all over the world (for one thing), a vegetarian diet would become much more mainstream. Vegetarian meat alternatives become more economically viable.
     An non-obvious value in our project is well-being with regard to diet. With regard to the environment we would ideally all follow a vegetarian diet. However, even if we would all eat a vegetarian diet, the retention of meat-like foods in our diet might be a good thing, as this is a type of food a lot of people greatly enjoy worldwide. With our app we encourage people to eat vegetarian meals, but we should also encourage them to follow a varied diet and to enjoy what they eat.
 ### Consequences for design
 What would happen if we were to alter our design taking the above non-obvious stakeholder and value into consideration?
