@@ -20,7 +20,7 @@ student number - name
 3. How did we communicate?
     We agreed whatsapp would be our main communication channel. In addition we used gitlab and MatterMost. The main part of communication in the team happened during the face to face meetings where we also did the sprint plannings. Whatsapp then provided supplementary communication.
     If a sprint planning didn't work out, this would be discussed in the whatsapp group and work would be redistributed there. If necessary or desirable, additional face to face meetings would be planned, as face to face talking proved to be the most effective way of communicating.
-4. How did version control help (if at all)?
+4. How did version control help?
     We were able to make branches per week and add features accordingly. This was a great help with regard to keeping documentation and keeping things organized.
 5. What did we learn?
     We all learned how to work properly in group and what it is like working on software in team.
@@ -30,7 +30,7 @@ student number - name
 ## Design Decisions
 1. What major design decisions did we take as a team?
     First of all we were going to finish the minimum viable product and then add bonus features.
-2. Which technological choices did we make and why? (e.g. Swing versus JavaFX, yes/no abstract base class, ...)
+2. Which technological choices did we make and why?
     Regarding the GUI: we decided on NetBeans as this seemed to be a smart way to build the GUI. Later we switched to SceneBuilder, as this was more suited for displaying graphs. (Had we known in advance graphs we're to be a feature we would've decided on SceneBuilder from the start.)
     We chose to not have an abstract base class because we found an enumerator to be more useful. It saves on the number of classes and thus the amount of testing to do. (A downside of using an enumerator is that all activity objects have the same attributes, therefore we cannot use different units like square meter/kilometer/mass.)
     We used SQL over NOSQL since it makes querying easier and the result of a query is easier to model on objects. Also, everyone in our team had more experience with SQL than NOSQL.
@@ -39,22 +39,22 @@ student number - name
 
 ---
 ## Points for improvement
-1. How can your software be improved (testing, GUI, code quality, features, ...)
+1. How can our software be improved?
     We can add more bonus features which would give us a higher grade like :
-        - make it into an android application. 
+        - make it into an android application.
         - add a visual representation of a forest where the user can see how much trees he saved
         - add a API which can calculate CO2 for the car you drive (BMW X5, Volvo C3, ...)
 2. How can the process/collaboration be improved?
     We could split up the workload even more, so that everyone has done an equal share into the making of the application. Or maybe we could have changed everyone's task on a weekly basis, this way everyone would have worked on every aspect of the application.
 3. How can the course be improved?
-    Give the students an intro on maven, mockito ... Some things we're hard to process on your own.
-    We know that the course is about looking things up and learning things on the go without much help, but sometimes an introduction on complex subjects would be really helpful.
+    Give the students an intro on maven and mockito. Some things we're hard to process on your own.
+    We know that the course is about looking things up and learning things on the go without much help, but sometimes an introduction on complex subjects would be really helpful. Also, if realistically possible, make the course longer. After 8 weeks, several team members felt that the real collaboration had only just begun and could have been pushed further.
 
 ---
 ## Individual feedback
 
 ### Himanshu Pathak
-My role in the project was to work on the server side and handle the database for storing the data. I worked extensively in making the api endpoint handling on the server side, the database schemas and most of the queries that were used to retrieve and store data within the database. I also spent a lot of time in researching in mockito in order to figure out how it can be used to test the serverside code that I had created.
+My role in the project was to work on the server side and handle the database for storing the data. I worked extensively in making the api endpoint handling on the server side, the database schemas and most of the queries that were used to retrieve and store data within the database. I also spent a lot of time in researching in mockito in order to figure out how it can be used to test the server side code that I had created.
 
 My strong points for the project was my proficiency with programming and basic knowledge of how database and server systems can be connected together. My weaker points and my goal for this project was to learn how to efficiently work in a group and delegate tasks based on the strong points and weak points of the members. I have learned a lot about this, however I would like to improve more in this area.
 
@@ -64,7 +64,7 @@ My stronger points were that I already have experience working from vague assign
 Therefore I feel like I had a good idea how to start on this project (gather information given and take the first steps from there). Furthermore I see the necessity of doing the administration that comes with good teamwork and therefore I kept watch over our SCRUM-board hygiene and meeting notes.
 My weaker points were that I might've been more proactive at times during the sprint plannings. I'm a mediocre coder and wanted to learn better coding but ended up doing more organizational activities.
 ### Michael Chan
-During this project I worked alot on the client side code and also did some server side code. Because of this I knew the code from both the client and server side quite well and I was able to help the GUI to design frames that were compatible with our server and did a lot of the client side data processing as well as requesting data from the server.
+During this project I worked a lot on the client side code and also did some server side code. Because of this I knew the code from both the client and server side quite well and I was able to help the GUI to design frames that were compatible with our server and did a lot of the client side data processing as well as requesting data from the server.
 My stronger points were that I had a pretty good understanding of the program in general and I was able to help out others when they had to go outside their field of expertise.
 My weaker points were that I did not keep track the organisational activities well such as the SCRUMBoard. I also ended up doing most of my work in the weekend before the demo which was not very helpful for the rest of the team as it would seem if we were behind schedule.
 This was especially an issue for the week 8 deadline as we ended up with untested code and it was not clear who was going to write those tests. I ended up writing them the night before the demo. Better planning would have avoided that issue altogether and is something I will keep in mind for in the future.
@@ -78,10 +78,10 @@ so if something goes wrong with the first plan, then I do have a backup to show/
 My weak points are that I didn’t understand very well of how Git and Sourcetree work, which led to several problems when I tried
 to commit my work/code.   
 ### Oliver Neut
-In the beginning of the project I was very interested in making an application in team, it seemed very hard to begin. But after the first week of coding we got the first demo done, this wansn't really a struggle. After that thinks got more complicated, we started using frameworks like Spring and mockito. I couldn't figure out how to work with it and just helped where I could, I did the checkstyle for a bit of classes. In week 6 I started with defining a scoring system that we could implement into the database of our application. The week after I looked into encrypting the passwords of the user, this worked out really good. Week 8 I implemented an achievement tab into our application, where the user can see how good he is performing. I learned quite a few things during this project and these will definitely be good in the future.
+In the beginning of the project I was very interested in making an application in team, it seemed very hard to begin. But after the first week of coding we got the first demo done, this wasn't really a struggle. After that thinks got more complicated, we started using frameworks like Spring and mockito. I couldn't figure out how to work with it and just helped where I could, I did the checkstyle for a bit of classes. In week 6 I started with defining a scoring system that we could implement into the database of our application. The week after I looked into encrypting the passwords of the user, this worked out really good. Week 8 I implemented an achievement tab into our application, where the user can see how good he is performing. I learned quite a few things during this project and these will definitely be good in the future.
 
 ### Rauf Akdemir
-At the beginning I was a bit disoriented as to what had to be done, so I quickly grabbed the marker and we figured things out on how it should look like on a bigger scale. After that meeting I thought I would have a stronger role than I eventually had. Because there was no clearly defined task for me, I found myself being disoriented between the parts of the team that actually focused on a particular thing. Git was also new to me and that has been quite a learnful experience, because I now really start to understand how software projects are implemented in a big team. I ended up working on client-server-DB communiation with Himanshu and Michael, but I wish I would have had my hands a bit more dirty. Working in a team was really good to me, and I think most of us experienced that in a way. I kind of wish there was more to do, because I think we could have pushed our team work a bit further. We just started really.
+At the beginning I was a bit disoriented as to what had to be done, so I quickly grabbed the marker and we figured things out on how it should look like on a bigger scale. After that meeting I thought I would have a stronger role than I eventually had. Because there was no clearly defined task for me, I found myself being disoriented between the parts of the team that actually focused on a particular thing. Git was also new to me and that has been quite a learning experience, because I now really start to understand how software projects are implemented in a big team. I ended up working on client-server-DB communication with Himanshu and Michael, but I wish I would have had my hands a bit more dirty. Working in a team was really good to me, and I think most of us experienced that in a way. I kind of wish there was more to do, because I think we could have pushed our team work a bit further. We just started really.
 ### Tamer Sahin
 At the beginning of the project everything was a little bit vague for me. Then meeting after meeting, things became clearer. I think my strong points during the project were that I was very critical of the small points in the rubric and tried to make sure everyone did it that way.
 I also think that my communication with the group was also a plus, especially with the one with whom I made the GUI, Nima.
