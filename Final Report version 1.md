@@ -59,6 +59,11 @@ student number - name
     I) what were your stronger/weaker points during the project?
     II) Did you have conflicts with team members? How did you solve them?
 ### Himanshu Pathak
+My role in the project was to work on the server side and handle the database for storing the data. I worked extensively in making the api endpoint handling on the server side, the database schemas and most of the queries that were used to retrieve and store data within the database. I also spent a lot of time in researching in mockito in order to figure out how it can be used to test the serverside code that I had created.
+
+ My strong points for the project was my proficiency with programming and basic knowledge of how database and server systems can be connected together. My weaker points and my goal for this project was to learn how to efficiently work in a group and delegate tasks based on the strong points and weak points of the members. I have learned a lot about this, however I would like to improve more in this area.
+
+As per conflicts with team members, there were none, however there were at some point conflict of ideas on how to develop x/y feature and these conflicts were solved by making decision between the whole group based on what will be easier to program, be logical for the end user etc. 
 ### IJsbrand Slagmolen
 My stronger points were that I already have experience working from vague assignments to concrete goals, since I'd used to work in a corporate environment (and in corporate life assignments are usually vague).
 Therefore I feel like I had a good idea how to start on this project (gather information given and take the first steps from there). Furthermore I see the necessity of doing the administration that comes with good teamwork and therefore I kept watch over our SCRUM-board hygiene and meeting notes.
