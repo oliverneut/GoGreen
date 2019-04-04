@@ -2,14 +2,14 @@
 
 ---
 ### Group Members
-student number - name
-4823567 - Himanshu Pathak
-4974042 - IJsbrand Slagmolen
-4953770 - Michael Chan
-4840488 - Nima Khaksar
-4884663 - Oliver Neut
-4996961 - Rauf Akdemir
-4952936 - Tamer Sahin
+student number - name<br />
+4823567 - Himanshu Pathak<br />
+4974042 - IJsbrand Slagmolen<br />
+4953770 - Michael Chan<br />
+4840488 - Nima Khaksar<br />
+4884663 - Oliver Neut<br />
+4996961 - Rauf Akdemir<br />
+4952936 - Tamer Sahin<br />
 
 ---
 ## How did the project go?
@@ -40,10 +40,10 @@ student number - name
 ---
 ## Points for improvement
 1. How can our software be improved?
-    We can add more bonus features which would give us a higher grade like :
-        - make it into an android application.
-        - add a visual representation of a forest where the user can see how much trees he saved
-        - add a API which can calculate CO2 for the car you drive (BMW X5, Volvo C3, ...)
+    We can add more bonus features which would give us a higher grade like :<br />
+        - make it into an android application.<br />
+        - add a visual representation of a forest where the user can see how much trees he saved<br />
+        - add a API which can calculate CO2 for the car you drive (BMW X5, Volvo C3, ...)<br />
 2. How can the process/collaboration be improved?
     We could split up the workload even more, so that everyone has done an equal share into the making of the application. Or maybe we could have changed everyone's task on a weekly basis, this way everyone would have worked on every aspect of the application.
 3. How can the course be improved?
