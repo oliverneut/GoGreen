@@ -25,7 +25,6 @@ student number - name
 5. What did we learn?
     We all learned how to work properly in group and what it is like working on software in team.
     Most of us learned how to work with git because we weren't used to it yet. And all of us got to know a few helpful frameworks like Spring, maven, mockito.
-6. […] (← other points to add?)
 
 ---
 ## Design Decisions
@@ -37,7 +36,6 @@ student number - name
     We used SQL over NOSQL since it makes querying easier and the result of a query is easier to model on objects. Also, everyone in our team had more experience with SQL than NOSQL.
 3. What system did we use to calculate the CO2 savings?
     We looked up good and correct values for each mandatory activity we needed to implement, and we decided to store them into our database. This was much better because we didn't think the coolclimate API (which we had in mind at first) was a good solution for our application.   
-[…] (← other points to add?)
 
 ---
 ## Points for improvement
@@ -51,17 +49,14 @@ student number - name
 3. How can the course be improved?
     Give the students an intro on maven, mockito ... Some things we're hard to process on your own.
     We know that the course is about looking things up and learning things on the go without much help, but sometimes an introduction on complex subjects would be really helpful.
-4. […] (← other points to add?)
 
 ---
 ## Individual feedback
-1. Everyone writes at least 200 words on how they functioned in the team:
-    I) what were your stronger/weaker points during the project?
-    II) Did you have conflicts with team members? How did you solve them?
+
 ### Himanshu Pathak
 My role in the project was to work on the server side and handle the database for storing the data. I worked extensively in making the api endpoint handling on the server side, the database schemas and most of the queries that were used to retrieve and store data within the database. I also spent a lot of time in researching in mockito in order to figure out how it can be used to test the serverside code that I had created.
 
- My strong points for the project was my proficiency with programming and basic knowledge of how database and server systems can be connected together. My weaker points and my goal for this project was to learn how to efficiently work in a group and delegate tasks based on the strong points and weak points of the members. I have learned a lot about this, however I would like to improve more in this area.
+My strong points for the project was my proficiency with programming and basic knowledge of how database and server systems can be connected together. My weaker points and my goal for this project was to learn how to efficiently work in a group and delegate tasks based on the strong points and weak points of the members. I have learned a lot about this, however I would like to improve more in this area.
 
 As per conflicts with team members, there were none, however there were at some point conflict of ideas on how to develop x/y feature and these conflicts were solved by making decision between the whole group based on what will be easier to program, be logical for the end user etc. 
 ### IJsbrand Slagmolen
@@ -96,50 +91,22 @@ The last one, which I can't actually call a weakness, but rather something that 
 It would have been better if I had also done something with the server. That is why I am very happy with OOPP, because I am not going to make the mistakes I made this year during the final period next year!
 
 ---
-
----
 ## Value Sensitive Design
-    
-Write about one page (500-750 words) in which you describe:
-In what way the design process and the final product would change if you have to really design also for this other stakeholders or values
-      
-Your text should cover the following points:
-    
-1. How would you define your main concept: “design for...”
-    An unusual stakeholder would be meat production companies looking for vegetarian alternatives. In the event of a great overwhelming success of our app, making everyone eat more vegetarian meals all over the world (for one thing), a vegetarian diet would become much more mainstream. Vegetarian meat alternatives become more economically viable as a vegetarian diet becomes more mainstream.
-    An unusual value in our project might be well-being with regard to diet. With regard to the environment we would ideally all follow a vegetarian diet. However, even if we would all eat a vegetarian diet, the retention of meat-like foods in our diet might be a good thing, as this is a type of food a lot of people greatly enjoy worldwide. With our app we encourage people to eat vegetarian meals, but we should also encourage them to follow a varied diet and to enjoy what they eat.
-
-2. How would you define in general terms the stakeholders/values you want to design for
+### Main concept, stakeholders and values
     Our main concept is that we design an app for people wishing to improve their environmental impact.
     In general terms the design stakeholders would be the students working on the app, the TA's and teachers determining the grade and the end users that might use the app.
     The values in general terms would be sustainability (lessen environmental impact), environmental-friendliness (eat less meat, drive the car less) and privacy (keep the user's data safe).
+### Non-obvious stakeholders/values
+    A non-obvious stakeholder would be meat production companies looking for vegetarian alternatives. In the event of a great overwhelming success of our app, making everyone eat more vegetarian meals all over the world (for one thing), a vegetarian diet would become much more mainstream. Vegetarian meat alternatives become more economically viable.
+    An non-obvious value in our project is well-being with regard to diet. With regard to the environment we would ideally all follow a vegetarian diet. However, even if we would all eat a vegetarian diet, the retention of meat-like foods in our diet might be a good thing, as this is a type of food a lot of people greatly enjoy worldwide. With our app we encourage people to eat vegetarian meals, but we should also encourage them to follow a varied diet and to enjoy what they eat.
+### Consequences for design
+What would happen if we were to alter our design taking the above non-obvious stakeholder and value into consideration?
     For the non-obvious stakeholder (a meat production company looking into vegetarian alternatives) we would try and gather data on how many people are actually changing their diet and are eating more vegetarian meals than before. We would recruit meat production companies for a newsletter and send them info on milestones reached. The students building the app might have the benefit of financial gain, as will the companies getting data on how to invest in future products. The user might not want to share his data. There will be tension between selling data and giving the user his/her privacy.
-
-3. Which sources would you consult in order to gain theoretical insights into the stakeholders or values you want to design for: academic literature, artworks, experts in domain different than yours...; give some general indication not necessarily titles of books or names of experts: e.g. “social scientists who have study the phenomenon X, documentaries on discrimination of the group Y, legal/philosophical literature on the right to Z, political studies on the meaning of democracy etc.)
+    For the non-obvious value we could put in more features where people can judge in how far they enjoyed their meal and how the absence/addition of meat-like products improved enjoyment.
+### Required knowledge for adequate design alterations
+The next question is: what knowledge do we need to realize the above design alterations? What people would we interview, what research would need to be done and in which fields of science?
     For the environmental-friendliness we want to inform ourselves about what non-vegan foods exactly are the most harming to our planet. Finding alternatives to these kinds of products is best done by informing ourselves by food-experts.
     We also would want to keep a varied diet for the consumer, we would have to delve deeper into what the importance of meat is and also how much a person actually needs it in his/her diet. We think studies about diet/health concerning vegan lifestyles should learn us that. A last thing that would be important is to popularize the concept of a vegan lifestyle as much as possible, experts on consumer behaviour would be best at teaching us the best ways to do so.
-
-4. Your concept involves the realization of at least two values OR one or more values for at least two different stakeholders (see above).
-Explain (if possible): 
-- how the interests of the different chosen stakeholders AND/OR the different values may be in tension
-    There will be tension between selling data to food producing companies and giving the user his/her privacy that he/she needs.
-
-- How you may try to loosen this tension by some new design solution (also hypothetical, non-existing)
-    We would take the data we gather from the users into account and form general graphs about their behaviour. The private data e.g. Lisa has eaten only vegan meals last week wouldn't be the data we would actually want to give away. Only if the user agrees to do so. This way the users that agree shouldn't be angry and the users who don't still have their privacy. While at the same time the companies can benefit from the data we gather.
-    
-
-
-
-1. Identify an unusual stakeholder and an unusual value in your project
-    An unusual stakeholder would be meat production companies looking for vegetarian alternatives. In the event of a great overwhelming success of our app, making everyone eat more vegetarian meals all over the world (for one thing), a vegetarian diet would become much more mainstream. Vegetarian meat alternatives become more economically viable as a vegetarian diet becomes more mainstream.
-    An unusual value in our project might be well-being with regard to diet. With regard to the environment we would ideally all follow a vegetarian diet. However, even if we would all eat a vegetarian diet, the retention of meat-like foods in our diet might be a good thing, as this is a type of food a lot of people greatly enjoy worldwide. With our app we encourage people to eat vegetarian meals, but we should also encourage them to follow a varied diet and to enjoy what they eat.
-2. How would our design be different if we were to really take above stakeholder and value into consideration?
-    Our main concept is that we design an app for people wishing to improve their environmental impact.
-    In general terms the design stakeholders would be the students working on the app, the TA's and teachers determining the grade and the end users that might use the app.
-    The values in general terms would be sustainability (lessen environmental impact), environmental-friendliness (eat less meat, drive the car less) and privacy (keep the user's data safe).
-    For the non-obvious stakeholder (a meat production company looking into vegetarian alternatives) we would try and gather data on how many people are actually changing their diet and are eating more vegetarian meals than before. We would recruit meat production companies for a newsletter and send them info on milestones reached. The students building the app might have the benefit of financial gain, as will the companies getting data on how to invest in future products. The user might not want to share his data. There will be tension between selling data and giving the user his/her privacy.
-
-
-3. What knowledge would we really need to do point 2? (What people would we interview, what research would need to be done and in which fields of science?)
-    We would need to know what difference we could make for the end of the 21 century. We'd need information on how fast the climate is changing, what the real effects of this will be in about 80 years and how our app will reduce these effects. We'd need information also on how usage of an app can influence behaviour and how to make use of this. Ideally a renowned social scientist/psychologist would do research on apps like pokémon go and how it influences behaviour and share his/her results with us.
-4. Describe one OR the other: what tension exists between the values of this project? OR: What tension exists between the stakeholders of this project?
+### Tension between stakeholders
+Different stakeholders will have different interests. In our case: the meat companies will have different interests than the users of the app. There will be tension between selling data to food producing companies and giving the user his/her privacy that he/she needs.
+    In what ways could this tension be eased? We would take the data we gather from the users into account and form general graphs about their behaviour. The private data e.g. Lisa has eaten only vegan meals last week wouldn't be the data we would actually want to give away. Only if the user agrees to do so. This way the users that agree shouldn't be angry and the users who don't still have their privacy. While at the same time the companies can benefit from the data we gather.
