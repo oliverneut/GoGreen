@@ -12,41 +12,41 @@ student number - name<br />
 4952936 - Tamer Sahin<br />
 
 ---
-## How did the project go?
-1. Did we manage to stick to the planning?
+## General project flow
+1. Did we manage to stick to the planning?<br />
     Overall: yes. Each sprint taken separately: there have been weeks where we didn't finish all the tickets for that week. Usually because tickets had become obsolete due to redundancy.
-2. How did our team collaboration go?
+2. How did our team collaboration go?<br />
     We divided the team in sub-teams. All in all this went well. Each sub-team did their share.
-3. How did we communicate?
+3. How did we communicate?<br />
     We agreed whatsapp would be our main communication channel. In addition we used gitlab and MatterMost. The main part of communication in the team happened during the face to face meetings where we also did the sprint plannings. Whatsapp then provided supplementary communication.
     If a sprint planning didn't work out, this would be discussed in the whatsapp group and work would be redistributed there. If necessary or desirable, additional face to face meetings would be planned, as face to face talking proved to be the most effective way of communicating.
-4. How did version control help?
+4. How did version control help?<br />
     We were able to make branches per week and add features accordingly. This was a great help with regard to keeping documentation and keeping things organized.
-5. What did we learn?
+5. What did we learn?<br />
     We all learned how to work properly in group and what it is like working on software in team.
     Most of us learned how to work with git because we weren't used to it yet. And all of us got to know a few helpful frameworks like Spring, maven, mockito.
 
 ---
 ## Design Decisions
-1. What major design decisions did we take as a team?
+1. What major design decisions did we take as a team?<br />
     First of all we were going to finish the minimum viable product and then add bonus features.
-2. Which technological choices did we make and why?
+2. Which technological choices did we make and why?<br />
     Regarding the GUI: we decided on NetBeans as this seemed to be a smart way to build the GUI. Later we switched to SceneBuilder, as this was more suited for displaying graphs. (Had we known in advance graphs we're to be a feature we would've decided on SceneBuilder from the start.)
     We chose to not have an abstract base class because we found an enumerator to be more useful. It saves on the number of classes and thus the amount of testing to do. (A downside of using an enumerator is that all activity objects have the same attributes, therefore we cannot use different units like square meter/kilometer/mass.)
     We used SQL over NOSQL since it makes querying easier and the result of a query is easier to model on objects. Also, everyone in our team had more experience with SQL than NOSQL.
-3. What system did we use to calculate the CO2 savings?
+3. What system did we use to calculate the CO2 savings?<br />
     We looked up good and correct values for each mandatory activity we needed to implement, and we decided to store them into our database. This was much better because we didn't think the coolclimate API (which we had in mind at first) was a good solution for our application.   
 
 ---
 ## Points for improvement
-1. How can our software be improved?
-    We can add more bonus features which would give us a higher grade like :<br />
+1. How can our software be improved?<br />
+    We could add more bonus features which would give us a higher grade like :<br />
         - make it into an android application.<br />
         - add a visual representation of a forest where the user can see how much trees he saved<br />
         - add a API which can calculate CO2 for the car you drive (BMW X5, Volvo C3, ...)<br />
-2. How can the process/collaboration be improved?
+2. How can the process/collaboration be improved?<br />
     We could split up the workload even more, so that everyone has done an equal share into the making of the application. Or maybe we could have changed everyone's task on a weekly basis, this way everyone would have worked on every aspect of the application.
-3. How can the course be improved?
+3. How can the course be improved?<br />
     Give the students an intro on maven and mockito. Some things we're hard to process on your own.
     We know that the course is about looking things up and learning things on the go without much help, but sometimes an introduction on complex subjects would be really helpful. Also, if realistically possible, make the course longer. After 8 weeks, several team members felt that the real collaboration had only just begun and could have been pushed further.
 
